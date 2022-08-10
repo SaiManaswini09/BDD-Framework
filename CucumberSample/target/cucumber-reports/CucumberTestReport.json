@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19795685300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on pre-login page",
+            "match": {
+              "location": "Sample.user_is_on_pre_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 6,
+            "value": "#Test Case - GVCA_Login_01_TC001"
+          },
+          {
+            "line": 7,
+            "value": "#Description - The purpose of this Test Case is to verify the UI of Login dialog box"
+          },
+          {
+            "line": 8,
+            "value": "#Developed By - Sai Manaswini"
+          },
+          {
+            "line": 9,
+            "value": "#Date - September 8,2021"
+          }
+        ],
+        "line": 11,
+        "name": "GVCA_Login_01_TC001",
+        "description": "",
+        "id": "login;gvca-login-01-tc001",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicked on Login or Sign up",
+            "match": {
+              "location": "Sample.clicked_on_Login_or_Sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify and click on login elements",
+            "match": {
+              "location": "Sample.verify_and_click_on_login_elements()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/Sample.feature"
+  }
+]
